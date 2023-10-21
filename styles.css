@@ -1,0 +1,161 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+:root {
+    --branco-principal:#ffffff;
+    --branco-secundario:#F9F9F9;
+    --cinza-secundario:#C0C0C0;
+    --botao-destaque:#167BF7;
+    --cor-de-fundo:#00030C;
+    --fonte-principal:'Inter';
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+    
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__secundario{
+    margin: 5em 0 7em 0;
+}
+
+.container__footer{
+    
+    text-align: center;
+}
+
+.container__footer__links{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.container__footer__links a:hover{
+    color: var(--botao-destaque);
+}
+
+.container__footer__caixa{
+    margin: 1em 0;
+}
+
+.container__footer__aviso{
+    margin: 1em 6em;
+    color: var(--cinza-secundario);
+}
+
+.container__secundario__caixa{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+
+.container__botao{
+    background-color: var(--botao-destaque);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1em;
+    
+
+}
+
+.container__botao__secundario{
+    display: inline;
+    margin-bottom: 0;
+    
+}
+
+.container__aviso{
+    color: var(--cinza-secundario);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container__titulo{
+   font-size: 28px;
+   font-weight: 700;
+}
+
+.container__titulo__secundario{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.container__titulo__terceiro{
+    font-size: 32px;
+    font-weight:  700;
+}
+
+.container__texto{
+    color: var(--branco-secundario);
+    margin-bottom: 2em;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+    
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.container__caixa__secundario{
+    margin-right: 2em;
+}
+
+.container__caixa__terceiro{
+  
+    text-align: center;
+}
+
+.container__imagem__secundario{
+  margin: 0 2em 0 2em;
+  width: 80%;  
+}
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.titulo__terceiro{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
